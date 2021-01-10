@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/SeleniumProject">
+        <classes>
+            <class name="Alerts.AlertsTests">
+                <methods>
+                    <include name="testAcceptAlert"/>
+                    <include name="testGetTextFromAlert"/>
+                    <include name="testSetInputAlert"/>
+                </methods>
+            </class>
+            <class name="Alerts.FileUploadTests">
+                <methods>
+                    <include name="testFileUpload"/>
+                </methods>
+            </class>
+            <class name="ContextMenu.ContextMenuTests">
+                <methods>
+                    <include name="testVisibleText"/>
+                    <include name="testClickOkOnAlert"/>
+                </methods>
+            </class>
+            <class name="Dropdown.DropdownTests">
+                <methods>
+                    <include name="testSelectOption"/>
+                </methods>
+            </class>
+            <class name="DynamicLoading.WaitsTests">
+                <methods>
+                    <include name="testWaitUntilHidden"/>
+                </methods>
+            </class>
+            <class name="Hover.HoverTests">
+                <methods>
+                    <include name="testHoverUser1"/>
+                </methods>
+            </class>
+            <class name="WYSIWYGEditor.FrameTests">
+                <methods>
+                    <include name="testWysiwyg"/>
+                </methods>
+            </class>
+            <class name="keys.KeysTests">
+                <methods>
+                    <include name="testBackSpace"/>
+                    <include name="testPi"/>
+                </methods>
+            </class>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testSuccessfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
